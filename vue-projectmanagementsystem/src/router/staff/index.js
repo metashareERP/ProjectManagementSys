@@ -1,0 +1,1 @@
+export default {    path: '/staff',    component: () =>       import ( '@/views/staff'),    meta: {        title: 'staff',        requireAuth: true, // 判断是否需要登录    },}
